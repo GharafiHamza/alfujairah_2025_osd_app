@@ -706,7 +706,7 @@ const peakPoints = {json.dumps(peak_points)};
 
             layers.push(new TileLayer({{
                 id: 'base-tiles',
-                data: 'https://basemap.queeniemella.cc/tiles/countries/{{z}}/{{x}}/{{y}}.png',
+                data: 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{{z}}/{{y}}/{{x}}',
                 minZoom: 0,
                 maxZoom: 19,
                 tileSize: 256,
