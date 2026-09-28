@@ -706,7 +706,7 @@ const peakPoints = {json.dumps(peak_points)};
 
             layers.push(new TileLayer({{
                 id: 'base-tiles',
-                data: 'https://basemaps.cartocdn.com/rastertiles/dark_all/{{z}}/{{x}}/{{y}}.png',
+                data: 'https://basemap.queeniemella.cc/tiles/countries/{{z}}/{{x}}/{{y}}.png',
                 minZoom: 0,
                 maxZoom: 19,
                 tileSize: 256,
